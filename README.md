@@ -27,3 +27,4 @@ To publish a new version to NPM:
 1. Update the `README.md` file
 2. Bump the version in the `package.json` file
 3. Run `npm publish` (first call with ` --access public`)
+4. Commit and push changes to GitHub 

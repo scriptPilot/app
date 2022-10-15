@@ -1,6 +1,6 @@
 {
   "name": "@scriptpilot/app-cli",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "repository": "https://github.com/scriptPilot/app-cli",
   "bugs": "https://github.com/scriptPilot/app-cli/issues",
   "type": "module",
