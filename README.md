@@ -4,7 +4,7 @@ CLI to support the hybrid app development.
 
 ## Installation
 
-Run `npm install @scriptpilot/app --save-dev`.
+Run `npm install @scriptpilot/app --save-dev`
 
 ## Usage
 
