@@ -1,10 +1,13 @@
 {
-  "name": "@scriptpilot/app",
-  "version": "0.1.7",
+  "name": "@scriptpilot/app-cli",
+  "version": "0.2.0",
+  "repository": "https://github.com/scriptPilot/app-cli",
+  "bugs": "https://github.com/scriptPilot/app-cli/issues",
   "type": "module",
-  "bin": "cli.js",
+  "bin": "app.js",
   "dependencies": {
     "chalk": "^5.1.2",
-    "commander": "^9.4.1"
+    "commander": "^9.4.1",
+    "fs-extra": "^10.1.0"
   }
 }

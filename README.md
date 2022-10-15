@@ -1,30 +1,29 @@
-# App
+# App CLI
 
 CLI to support the hybrid app development.
 
 ## Installation
 
-Run `npm install @scriptpilot/app --save-dev`
+Run `npm install @scriptpilot/app-cli --save-dev`
 
 ## Usage
 
-Run `npx app <command>`
+Run `npx app` to see all commands
 
-## Commands
-
-### hello
-
-Logs `Hello World` in the terminal.
+Run `npx app <command>` to run a command
 
 ## Package Development
 
 ### Testing
 
-Run commands with `node cli <command>`
+Testing requires the [Demo App](https://github.com/scriptPilot/demo-app) cloned on the same level as this repository.
+
+Run commands with `node app <command>`
 
 ### Publishing
 
 To publish a new version to NPM:
 
-1. Bump version
-2. Run `npm publish`
+1. Update the `README.md` file
+2. Bump the version in the `package.json` file
+3. Run `npm publish` (first call with ` --access public`)
