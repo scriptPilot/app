@@ -1,10 +1,12 @@
 {
   "name": "@scriptpilot/app-cli",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "repository": "https://github.com/scriptPilot/app-cli",
   "bugs": "https://github.com/scriptPilot/app-cli/issues",
   "type": "module",
-  "bin": "app.js",
+  "bin": {
+    "app": "cli.js"
+  },
   "dependencies": {
     "chalk": "^5.1.2",
     "commander": "^9.4.1",
