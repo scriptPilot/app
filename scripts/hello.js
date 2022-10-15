@@ -1,5 +1,5 @@
-const chalk = require('chalk')
+import chalk from 'chalk'
 
-module.exports = () => {
-  console.log(chalk.bold.blue('Hello World'))
+export default () => {
+  console.log(chalk.bold.green('Hello World'))
 }

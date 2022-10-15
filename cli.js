@@ -1,9 +1,12 @@
 #! /usr/bin/env node
 
-const { program } = require('commander')
+import { program } from 'commander'
+
+import hello from './scripts/hello.js'
 
 program
   .command('hello')
-  .action(require('./scripts/hello'))
+  .description('Log "Hello World" to the console.')
+  .action(hello)
 
 program.parse()
